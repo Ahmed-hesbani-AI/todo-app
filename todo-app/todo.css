@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background-image: url(flowers-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    /* background-color: rgb(211, 207, 207); */
+    /* background: linear-gradient(135deg, #4a90e2, #b9ed1e); */
+    /* background: linear-gradient(135deg,#a18cd1, #6a11cb, #2575fc); */
+    /* background: linear-gradient(135deg, #3a0ca3, #4361ee, #4cc9f0); */
+}
+
+#continer{
+    height: 75vh;
+    width: 65vh;
+    /* background-color: grey; */
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 2);
+    border-radius: 4%;
+    /* box-shadow: 5px 5px 5px rgb(39, 37, 37); */
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.h2{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+};
+
+#task-app{
+    height: 50%;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+    margin: 5px 5px;
+}
+
+inpuT:hover{
+    border: 1px solid #b9ed1e;
+}
+
+button{
+    font-size: 1.2rem;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 5px;
+    font-weight: 550;
+    background-color: #b9ed1e;
+    color: rgb(78, 75, 75);
+    cursor: pointer;
+}
+
+/* button:hover{
+
+} */
+
+.li{
+    width: 84%;
+    border-radius: 20px;
+    border: none;
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+    margin: 5px 5px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+}
+
+.dlt-button{
+    font-size: 10px;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 5px;
+    font-weight: 550;
+    background-color: #f90032;
+    box-shadow: 0 0 10px rgba(255, 23, 68, 0.7);
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5px;
+}
+
+.line-through{
+    color : rgb(167, 166, 166);
+    text-decoration: line-through;
+    
+}
+
